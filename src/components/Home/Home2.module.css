@@ -1,0 +1,154 @@
+body{
+    /* margin-right: 0px; */
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    height: auto;
+    color: #212529;
+    font: 16px "Poppins", sans-serif ;
+    background: #F7F7F7;
+    padding: 150px 0px 110px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.inMain{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    height: auto;
+}
+
+.title{
+    color: #212529;
+    font: 16px "Poppins", sans-serif;
+    margin-bottom: 70px;
+}
+
+.title h3{
+    color: #EB566C;
+    font: 18px "Roboto", sans-serif;
+    margin-bottom: 17px;
+    padding-left: 68px;
+    margin-top: 0px;
+}
+
+.title h1{
+    color: #092C3F;
+    font: 50px "Roboto", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.card{
+    width: 360px;
+    height: 400px;
+    background-color: #fff;
+    font: 16px "Poppins", sans-serif;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: flex-end;
+}
+.inCard {
+    display: flex;
+    flex-direction: column;
+  
+    width: 95%;
+    
+    height: 95%; 
+
+    margin: auto;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+    font: 16px "Poppins", sans-serif;
+    width: 80%;
+    margin: auto;
+
+}
+
+.text a{
+    color: #1c165c;
+    font: 24px 'Sarabun', sans-serif;
+    margin: 0px 0px 21px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.text p{
+    color: #57667E;
+    font: 16px "Poppins", sans-serif;
+    margin: 0px 0px 36px;
+    
+}
+
+.card:hover > .inCard {
+    justify-content: end;
+    animation: hover 0.5s ease-in-out forwards ;
+   
+
+}
+
+@keyframes hover{
+    0%{
+        background: #FF2143;
+        color: #fff;
+        height: 0;
+      
+    }
+    100%{
+        background: #FF2143;
+        color: #fff;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 800px ) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+}

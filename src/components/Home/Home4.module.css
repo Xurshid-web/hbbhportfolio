@@ -1,0 +1,134 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 160vh;
+    padding: 195px 0px 100px;
+    background-color: #f7f7f7;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #212529;
+}
+
+.inMain{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    height: 100%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: auto;
+    width: 80%;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.title h3{
+    color: #eb566c;
+    font: 18px "Roboto", sans-serif;
+    margin: 0px 0px 16px;
+    padding: 0px 0px 0px 68px;
+}
+
+.title h1{
+    color: #092c3f;
+    font: 50px "Roboto", sans-serif;
+    margin: 0px 0px 8px;
+    font-weight: 800;
+}
+
+.flexMain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    margin: 0px 0px 50px 0px;
+}
+
+.img{
+    width: 40vw;
+    height: 48vh;
+    background-size: cover;
+}
+
+.inCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-right: auto;
+    background-color: #fff;
+    align-items: center;
+    margin: -50px 0px 0px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    
+}
+
+.inCard div{
+    width: 80%;
+    margin: auto;
+}
+
+.inCard div h3{
+    color: #e94d65;
+    font: 14px "Roboto", sans-serif;
+    margin: 0px 0px 15px;
+    padding: 0px 0px 0px 60px;
+}
+
+.inCard div p{
+    color: #0e132a;
+    font: 20px "Poppins", sans-serif;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+@media screen and ( max-width: 800px ) {
+    .parent{
+        height: auto;
+    }
+    .flex {
+        flex-direction: column;
+    }
+
+    .img{
+        width: 100%;
+        height: 40vh;
+        background-position: center;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+

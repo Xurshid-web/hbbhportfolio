@@ -1,0 +1,165 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+    padding: 148px 0px 200px;
+    background-size: cover;
+}
+
+.inMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+    font: 16px "Poppins", sans-serif;
+    padding: 0px 0px 0px 80px;
+    animation: anim 1s  forwards inherit ;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+    font: 16px "Poppins", sans-serif;
+    padding: 0px 0px 0px 80px;
+    transition: all 1s ease;
+}
+
+.inText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 50px;
+}
+
+.mark{
+    color: #f04e3f;
+    font: 900 50px "Poppins", sans-serif;
+    margin: 0px 0px 50px;
+}
+
+.inText p{
+    color: #d3d3d4;
+    font: 20px "Poppins", sans-serif;
+    padding: 0px 100px 0px 0px;
+    line-height: 2;
+}
+
+.acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.img{
+    width: 81px;
+    height: 81px;
+    background-size: cover;
+}
+
+.accText{
+    margin: 0px 0px 0px 25px;
+}
+
+.accText h2{
+    color:  #f04e3f;
+    font: 650 30px "Poppins", sans-serif;
+    margin: 0px 0px 6px;
+}
+
+.accText p{
+    color: #57667e;
+    font: 16px "Poppins", sans-serif;
+    margin: 0px 0px 15px;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #57667e;
+    width: 60px;
+    height: 50px;
+    border: 0.5px solid #57667e;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.svg svg{
+    width: 30px;
+    height: 30px;
+}
+
+.svg:hover {
+    color:  #f04e3f;
+    border-color: #f04e3f;
+}
+
+@media screen and ( max-width: 800px ) {
+    .main{
+        height: auto;
+    }
+    .inMain{
+        width: 95%;
+    }
+    .inText{
+        margin: 0px 0px 10px;
+    }
+    .text{
+        padding-left: 10px;
+    }
+    .inText p{
+        padding: 0px 10px 0px 0px;
+        line-height: 2;
+    }
+    .text1{
+      
+        padding: 0px 0px 0px 10px;
+        
+    }
+}
+
+@keyframes anim{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
